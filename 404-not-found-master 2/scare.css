@@ -1,0 +1,145 @@
+.header{
+    width: 100%;
+    position: relative;
+}
+.logo{
+    width: 133px;
+    height: 25px;
+    color: #333333;
+    top:40px;
+    position: absolute;
+    left: 77px;
+    font-size: 24px;
+    background-color: #ffffff;
+    font-family: 'Inconsolata', monospace;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    font-style: normal;
+}
+img{
+    width: 539.22px;
+    height: 414.25px;
+    position: absolute;
+    left: 5.35%;
+    right: 57.21%;
+    top: 24.54%;
+    bottom: 37.11%;
+    
+}
+.title{
+    width: 586px;
+    height: 190px;
+    background-color: #ffffff;
+    top:200px;
+    position: absolute;
+    left: 735px;
+    font-family: 'Space Mono', monospace;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    color: #333333;
+
+
+}
+.text{
+    width: 381px;
+    height: 108px;
+    background-color: #ffffff;
+    top:425px;
+    position: absolute;
+    left: 735px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+
+}
+button{
+    width: 216px;
+    height: 68px;
+    color: #333333;
+    top:598px;
+    position: absolute;
+    left: 735px;
+    background-color: #333333;
+    color: #FFFFFF;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+}
+.created{
+    width: 315px;
+    height: 17px;
+    top:974px;
+    position: absolute;
+    background-color: #ffffff;
+    left: 577px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BDBDBD;
+
+}
+@media only screen and (max-width: 375px){
+    .logo{
+        width: 133px;
+        height: 25px;
+        top:5px;
+        position: absolute;
+        left: 24px;
+        
+       
+    }
+    .container{
+        width: 350px;
+
+    }
+    img{
+        
+        width:247px;
+        height: 221px;
+        position: absolute;
+        left: 13.62%;
+        right: 12%;
+        top: 139px;
+        bottom: 63.44%;
+}
+.title{
+    width: 300px;
+    height: 142px;
+    padding-right: 30px;
+    background-color: #ffffff;
+    top:407px;
+    position: absolute;
+    left: 24px;
+    font-family: 'Space Mono', monospace;
+    font-size: 38px;
+    line-height: 62px;
+}
+.text{
+    font-size: 14px;
+    position: absolute;
+    left: 24px;
+    top:567px;
+    width: 260px;
+    line-height: 26px;
+}
+button{
+    position: absolute;
+    left: 24px;
+    top: 700px;
+}
+.created{
+    position: absolute;
+    left: 7px;
+    bottom: 30px;
+    font-size: 13px;
+}
+}
